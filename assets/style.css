@@ -12,7 +12,7 @@
     --dropbox--dark: rgba(0, 0, 0, 1);
 
 }
-
+/* style of header */
 header {
     background-color: var(--dropbox--light);
     padding: 5px;
@@ -20,25 +20,25 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+/* style container left */
 .left {
     display: flex;
 }
-
+/* style of list item in the header */
 .custom_list_header{
     list-style: none;
     gap: 20px;
     display: flex;
     padding: 10px;
 }
-
-img {
+/* style logo  */
+.logo {
     padding: 5px;
     margin-right: 1rem;
 
 
 }
-
+/* style button of header */
 .custom_button_header{
     border: none;
     width: 5rem;
@@ -46,4 +46,10 @@ img {
     background: var(--dropbox--secondary);
     text-align: center;
     height: 25px;
+}
+.jumbo{
+    background-color: var(--dropbox--primary);
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
