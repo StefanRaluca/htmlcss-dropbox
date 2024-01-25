@@ -52,6 +52,7 @@ header {
     text-align: center;
     height: 25px;
 }
+
 /* start style of first section main jumbo */
 .jumbo {
     width: 100%;
@@ -66,6 +67,7 @@ header {
 .contents_jumbo {
     padding-top: 50px;
 }
+
 /* style of contents */
 .contents_jumbo h2 {
 
@@ -74,11 +76,13 @@ header {
     padding-bottom: 4rem;
 
 }
+
 /* container flex style */
 .flex_jumbo {
     display: flex;
     justify-content: end;
 }
+
 /* style of columns */
 .col-small {
     width: 25%;
@@ -97,6 +101,7 @@ header {
 .col-60 img {
     max-width: 70%;
 }
+
 /* style button in first section of main */
 .custom_button1_jumbo {
     border: none;
@@ -117,4 +122,61 @@ header {
     margin-top: 30px;
     margin-left: 15px;
     font-size: 20px;
+}
+.busniess{
+    width: 100%;
+background-color:var(--dropbox--light);
+     display: flex;
+     justify-content: center;
+}
+.container_cards{
+     width: 90%;
+     
+ }
+
+
+.container_cards h2 {
+  font-size: 60px;
+    margin-top: 60px;
+    text-align: center;
+   
+}
+
+
+input[type="radio"] {
+    height: 1.2rem;
+    width: 1.2rem;
+
+}
+.card{
+    width: 40%;
+    border: solid;
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+    height: 500px;
+    border: groove;
+}
+
+.fa-check{
+    color:var(--dropbox--secondary);
+    font-weight: 10px;
+}
+.title_card{
+    border-bottom: groove rgb(204, 200, 200);
+    text-align: center;
+}
+
+.custom_button_main{
+    border: none;
+    background-color: var(--dropbox--secondary);
+    color: white;
+    height: 30px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.footer_card{
+    border-top: groove;
+    line-height: 30px;
 }
