@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* Utility */
 :root {
     --dropbox--secondary: rgba(0, 97, 255, 1);
     --dropbox--primary: rgba(180, 208, 231, 1);
@@ -48,8 +48,45 @@ header {
     height: 25px;
 }
 .jumbo{
-    background-color: var(--dropbox--primary);
-    height: 400px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
 }
+.container_jumbo{
+    width: 100%;
+    height: 500px;
+    background-color: var(--dropbox--primary);
+}
+
+.contents_jumbo {
+    padding-top: 50px;
+}
+.contents_jumbo h2 {
+
+    font-size: 65px;
+    text-align: center;
+    padding-bottom: 4rem;
+
+}
+.flex_jumbo{
+    display: flex;
+    justify-content:end;
+}
+
+.col-small {
+    width: 25%;
+
+}
+.col-small p {
+    font-size: 18px;
+}
+.col-60 {
+    height: 100px;
+    width: 60%;
+}
+
+.col-60 img{
+  max-width: 70%;
+}
+.custom_button_jumbo{
+    
+}
+
