@@ -54,7 +54,7 @@ header {
 .custom_button_header {
     border: none;
     width: 5rem;
-    color:var(--dropbox--light);
+    color: var(--dropbox--light);
     background: var(--dropbox--secondary);
     text-align: center;
     height: 25px;
@@ -94,7 +94,7 @@ header {
 /* container flex style */
 .flex_jumbo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 /* style of columns */
@@ -161,14 +161,14 @@ header {
 
 .col-4 {
     margin-top: 30px;
-   /*  width: calc((100% / 12) * 4); */
+    /*  width: calc((100% / 12) * 4); */
     border: 1px groove lightgrey;
     padding: 5px;
     line-height: 30px;
     width: 30%;
     margin: 10px;
 }
-    
+
 
 
 .col-12 {
@@ -318,7 +318,7 @@ input[type="radio"] {
 .col-4_operations {
     width: 30%;
     padding: 10px;
-    
+
 }
 
 .col-4_operations h3 {
@@ -334,4 +334,13 @@ input[type="radio"] {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 /* end of operations busniess */
+.container_link_clients {
+    padding: 3rem;
+
+}
+
+.container_link_clients a {
+    line-height: 8rem;
+}
