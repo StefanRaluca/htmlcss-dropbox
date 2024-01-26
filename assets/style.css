@@ -139,31 +139,44 @@ header {
 }
 
 /* container second of main */
-.container_main {
-    width: 100%;
+.container_busniess {
+    width: 90%;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+}
+
+[class^="col-"] {
     padding: 1rem;
 }
 
 .row {
-    width: 90%;
-    margin: auto;
+
+
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    margin: 0 -1rem;
+
 }
 
 .col-4 {
+    padding: 1rem;
+    line-height: 40px;
+    margin-top: 30px;
     width: calc((100% / 12) * 4);
     min-height: 600px;
-    border: 1px groove rgba(247, 242, 242, 0.89);
+    border: 1px solid black;
+
 }
 
 .col-12 {
+    margin-top: 50px;
     width: 100%;
-    border: 1px groove rgba(211, 211, 211, 0.988);
+    border: 1px solid black;
+
 }
+
 
 
 
@@ -220,31 +233,12 @@ input[type="radio"] {
 }
 
 /* style of las section of cards */
-.team {
-    border: 1px groove lightgrey;
-    width: 100%;
-    height: 250px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: blueviolet;
-}
 
 
 .team_header {
     border-bottom: 1px groove lightgrey;
     text-align: center;
 
-}
-
-.custom_team_button {
-    border: none;
-    background-color: var(--dropbox--secondary);
-    color: white;
-    height: 30px;
-    width: 200px;
-    margin-top: 40px;
-    margin-right: 15px;
 }
 
 .title_team {
@@ -257,8 +251,58 @@ input[type="radio"] {
     font-size: 20px;
 }
 
+.custom_team_button {
+    border: none;
+    background-color: var(--dropbox--secondary);
+    color: white;
+    height: 30px;
+    width: 200px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+
 .text_team {
     width: 600px;
     padding: 5px;
     margin-top: 40px;
+}
+
+
+/* style of container partener */
+.container_partener {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+/* style of container img */
+
+
+.container_partener img {
+    max-width: 90%;
+    height: 500px;
+}
+
+/* style of container text */
+.partener_text {
+    width: 30%;
+    padding: 2rem;
+    line-height: 20px;
+}
+
+.partener_text h4 {
+    width: 270px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.partener_text button {
+    margin-top: 30px;
+    border: 1px groove lightgrey;
+    background-color: #fffefe;
+    height: 30px;
+    width: 120px;
 }
