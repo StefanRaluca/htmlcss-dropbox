@@ -33,6 +33,12 @@ header {
     gap: 20px;
     display: flex;
     padding: 10px;
+
+}
+
+.custom_list_header a {
+    text-decoration: none;
+    color: black;
 }
 
 /* style logo  */
@@ -131,7 +137,8 @@ header {
 .busniess {
     width: 100%;
     background-color: var(--dropbox--light);
-
+    display: flex;
+    flex-direction: column;
 }
 
 /* style of cards */
@@ -147,6 +154,12 @@ header {
     font-size: 60px;
     margin-top: 60px;
     text-align: center;
+    margin-right: 350px;
+
+}
+
+.busniess form {
+    margin-left: 130px;
 
 }
 
@@ -160,13 +173,14 @@ input[type="radio"] {
 
 /* style of columns */
 .card {
-    width: 25%;
-    display: grid;
+    width: calc((100% /12) * 4);
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     margin: 30px;
     min-height: 600px;
     border: 1px groove rgb(247, 242, 242);
-    ;
+
 }
 
 /* stile of check */
@@ -196,13 +210,17 @@ input[type="radio"] {
     line-height: 30px;
     margin-left: 10px;
 }
+
 /* style of las section of cards */
 .team {
     border: 1px groove lightgrey;
-    width: 80%;
+    width: 100%;
     height: 250px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .team_header {
     border-bottom: 1px groove lightgrey;
