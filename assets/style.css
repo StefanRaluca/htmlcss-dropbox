@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Open Sans;
 }
 
 /* Utility */
@@ -53,10 +54,16 @@ header {
 .custom_button_header {
     border: none;
     width: 5rem;
-    color: white;
+    color:var(--dropbox--light);
     background: var(--dropbox--secondary);
     text-align: center;
     height: 25px;
+}
+
+.container-base {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 /* start style of first section main jumbo */
@@ -66,32 +73,33 @@ header {
 
 .container_jumbo {
     width: 100%;
-    height: 500px;
     background-color: var(--dropbox--primary);
 }
 
 .contents_jumbo {
     padding-top: 50px;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 /* style of contents */
 .contents_jumbo h2 {
 
     font-size: 65px;
-    text-align: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 
 }
 
 /* container flex style */
 .flex_jumbo {
     display: flex;
-    justify-content: end;
+    justify-content:center;
 }
 
 /* style of columns */
 .col-small {
-    width: 25%;
+    width: 30%;
 
 }
 
@@ -99,13 +107,13 @@ header {
     font-size: 18px;
 }
 
-.col-60 {
-    height: 100px;
-    width: 60%;
+.col-big {
+    width: 65%;
 }
 
-.col-60 img {
-    max-width: 70%;
+.col-big img {
+    max-width: 100%;
+    margin-bottom: -23rem;
 }
 
 /* style button in first section of main */
@@ -125,10 +133,11 @@ header {
 }
 
 .design_arrow {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 15px;
     font-size: 20px;
 }
+
 
 /* style of second section of maine */
 
@@ -140,39 +149,33 @@ header {
 
 /* container second of main */
 .container_busniess {
-    width: 90%;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    margin: auto;
 }
 
-[class^="col-"] {
-    padding: 1rem;
-}
 
 .row {
-
-
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .col-4 {
-    padding: 1rem;
-    line-height: 40px;
     margin-top: 30px;
-    width: calc((100% / 12) * 4);
-    min-height: 600px;
-    border: 1px solid black;
-
+   /*  width: calc((100% / 12) * 4); */
+    border: 1px groove lightgrey;
+    padding: 5px;
+    line-height: 30px;
+    width: 30%;
+    margin: 10px;
 }
+    
+
 
 .col-12 {
     margin-top: 50px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px groove lightgrey;
+    padding: 10px;
 
 }
 
@@ -183,10 +186,8 @@ header {
 
 
 .busniess h2 {
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 60px;
-    text-align: center;
-    margin-right: 350px;
 
 }
 
@@ -227,8 +228,6 @@ input[type="radio"] {
 
 .footer_card {
     border-top: groove;
-    line-height: 30px;
-    margin-left: 10px;
 }
 
 /* style of las section of cards */
@@ -262,8 +261,7 @@ input[type="radio"] {
 
 
 .text_team {
-    width: 600px;
-    padding: 5px;
+    width: 60%;
     margin-top: 40px;
 }
 
@@ -272,8 +270,6 @@ input[type="radio"] {
 .container_partener {
     display: flex;
     justify-content: center;
-    width: 80%;
-    margin: auto;
 }
 
 /* style of container img */
@@ -309,28 +305,20 @@ input[type="radio"] {
 /* style of  section busniess_operations  */
 
 
-
-
-
-
-
 .operations {
-    width: 90%;
-
     text-align: left;
-    margin: 30px;
 }
 
 .operations h2 {
-    margin-bottom: 1rem;
-    text-align: center;
+
+    margin: 1rem 5px;
 }
 
 
 .col-4_operations {
-    width: 20%;
-    min-height: 200px;
-    margin: 1rem;
+    width: 30%;
+    padding: 10px;
+    
 }
 
 .col-4_operations h3 {
@@ -346,3 +334,4 @@ input[type="radio"] {
     flex-wrap: wrap;
     justify-content: center;
 }
+/* end of operations busniess */
