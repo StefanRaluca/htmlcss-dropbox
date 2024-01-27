@@ -7,12 +7,21 @@
 
 /* Utility */
 :root {
+    --drobbox-logos-center: rgba(245, 245, 245, 1);
+    --drobbox-yellow-photo: rgba(255, 216, 48, 1);
+    --dropbox--red_dark-photo: rgba(213, 0, 31, 1);
+    --dropbox--blue_dark-photo: rgba(13, 36, 129, 1);
+    --dropbox--red-photo: rgba(255, 28, 28, 1);
     --dropbox--secondary: rgba(0, 97, 255, 1);
     --dropbox--primary: rgba(180, 208, 231, 1);
     --dropbox--light: rgba(255, 255, 255, 1);
     --dropbox--dark: rgba(0, 0, 0, 1);
-
+    --dropbox--green--border: rgba(209, 233, 205, 1);
+    --dropbox--green--photo: rgba(162, 211, 155, 1);
+    --dropbox--title: rgba(103, 21, 52, 1);
+    --dropbox--blue-photo: rgba(0, 147, 206, 1);
 }
+
 
 /* style of header */
 header {
@@ -226,10 +235,6 @@ input[type="radio"] {
 
 }
 
-.footer_card {
-    border-top: groove;
-}
-
 /* style of las section of cards */
 
 
@@ -237,6 +242,15 @@ input[type="radio"] {
     border-bottom: 1px groove lightgrey;
     text-align: center;
 
+}
+
+.col-4 hr {
+    width: 45px;
+    margin: 35px 15px 15px 25px;
+}
+
+.link {
+    margin: 35px 15px 15px 25px;
 }
 
 .title_team {
@@ -336,11 +350,152 @@ input[type="radio"] {
 }
 
 /* end of operations busniess */
+
+/* style of link clients */
+
 .container_link_clients {
     padding: 3rem;
 
 }
 
+.container_link_clients h1 {
+    width: 45%;
+}
+
 .container_link_clients a {
     line-height: 8rem;
+}
+
+
+/* end of link clients */
+
+
+/* start logo members */
+.logo_members {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.left_logos img {
+    max-width: 50%;
+
+
+}
+
+.center_logos {
+    width: 50%;
+    background-color: var(--drobbox-logos-center);
+}
+
+
+.center_logos img {
+    max-width: 30%;
+    margin-left: 2rem;
+    margin-top: 10px;
+
+}
+
+hr {
+    width: 70px;
+    margin: 15px 15px 15px 35px;
+}
+
+.center_logos p,
+.center_logos span {
+    margin: 15px 15px 15px 35px;
+}
+
+
+.right_logos img {
+    max-width: 49%;
+}
+
+.square {
+    aspect-ratio: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+
+
+.design_logos {
+    height: 150px;
+    max-width: 49%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.design_logos img {
+    filter: invert(1);
+}
+
+/* design of logo svg */
+.photo1 {
+    border: 10px solid var(--dropbox--green--border);
+    background-color: var(--dropbox--green--photo);
+}
+
+.photo2 {
+    background-color: var(--dropbox--title);
+}
+
+.photo3 {
+    background-color: var(--dropbox--blue-photo);
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo4 {
+    background-color: var(--dropbox--red-photo);
+}
+
+.photo5 {
+    background-color: var(--dropbox--blue_dark-photo);
+}
+
+.photo6 {
+    background-color: var(--dropbox--red_dark-photo);
+}
+
+.photo7 {
+    background-color: var(--drobbox-yellow-photo);
+}
+
+.photo8 {
+    background-color: var(--dropbox--primary);
+}
+
+/* end photo logo svg design */
+.free_trial {
+    background-color: var(--dropbox--primary);
+}
+
+
+.container_free_trial {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+
+
+.button_free_trial button {
+    margin-top: 4.2rem;
+    padding: 0.7rem 2rem;
+    color: var(--drop-secondary);
+    border: none;
+}
+
+.col_free_trial {
+    width: 40%;
+    margin-right: 12rem;
+}
+
+.col_free_trial h2 {
+    color: var(--dropbox--title);
+    padding: 4rem 0 7rem;
 }
