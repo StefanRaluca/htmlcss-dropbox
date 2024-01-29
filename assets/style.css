@@ -69,6 +69,11 @@ header {
     height: 25px;
 }
 
+.custom_button_header a {
+    text-decoration: none;
+    color: var(--dropbox--light);
+}
+
 .container-base {
     width: 80%;
     margin: 0 auto;
@@ -129,16 +134,25 @@ header {
 .custom_button1_jumbo {
     border: none;
     background-color: var(--dropbox--secondary);
-    color: white;
     height: 25px;
     width: 175px;
     margin-top: 40px;
+}
+
+.custom_button1_jumbo a {
+    text-decoration: none;
+    color: var(--dropbox--light);
 }
 
 .custom_button2_jumbo {
     border: none;
     margin-top: 30px;
     background-color: var(--dropbox--primary);
+}
+
+.custom_button2_jumbo a {
+    text-decoration: none;
+    color: var(--dropbox--dark);
 }
 
 .design_arrow {
@@ -273,6 +287,12 @@ input[type="radio"] {
     margin-right: 15px;
 }
 
+.custom_team_button a,
+.custom_button_main a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .text_team {
     width: 60%;
@@ -291,8 +311,11 @@ input[type="radio"] {
 
 .container_partener img {
     max-width: 90%;
-    height: 500px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
 }
+
 
 /* style of container text */
 .partener_text {
@@ -310,10 +333,15 @@ input[type="radio"] {
 
 .partener_text button {
     margin-top: 30px;
-    border: 1px groove lightgrey;
+    border: 2px groove rgba(211, 211, 211, 0.81);
     background-color: #fffefe;
     height: 30px;
     width: 120px;
+}
+
+.partener_text a {
+    text-decoration: none;
+    color: var(--dropbox--dark);
 }
 
 /* style of  section busniess_operations  */
@@ -423,7 +451,7 @@ hr {
 
 .design_logos {
     height: 150px;
-    max-width: 49%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
 
@@ -490,12 +518,50 @@ hr {
     border: none;
 }
 
+.button_free_trial a {
+    text-decoration: none;
+    color: var(--drop-secondary);
+}
+
 .col_free_trial {
-    width: 40%;
+    width: 55%;
     margin-right: 12rem;
+    font-size: 25px;
 }
 
 .col_free_trial h2 {
     color: var(--dropbox--title);
     padding: 4rem 0 7rem;
+}
+
+
+/* style of faq container  */
+
+.container_faq h2 {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.container_faq i {
+    margin-right: 2rem;
+}
+
+.container_faq {
+    padding-bottom: 1rem;
+}
+
+/* style of container questions */
+.questions {
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-top: 1px groove var(--dropbox--dark);
+    display: flex;
+}
+
+
+.change_h4 {
+    border-bottom: 1px groove var(--dropbox--dark);
 }
