@@ -87,6 +87,7 @@ header {
 
 .container_jumbo {
     width: 100%;
+    height: 650px;
     background-color: var(--dropbox--primary);
 }
 
@@ -127,7 +128,7 @@ header {
 
 .col-big img {
     max-width: 100%;
-    margin-bottom: -23rem;
+    margin-bottom: -24rem;
 }
 
 /* style button in first section of main */
@@ -158,7 +159,7 @@ header {
 .design_arrow {
     margin-top: 20px;
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -193,10 +194,9 @@ header {
 }
 
 
-
 .col-12 {
     margin-top: 50px;
-    width: 100%;
+    width: 95%;
     border: 1px groove lightgrey;
     padding: 10px;
 
@@ -214,14 +214,27 @@ header {
 
 }
 
-
-/* style input */
-
-input[type="radio"] {
-    height: 1.2rem;
-    width: 1.2rem;
+.contenitore_circle {
+    display: flex;
+    align-items: center;
 
 }
+
+.contenitore_circle i {
+    color: lightgray;
+}
+
+.circle_blue {
+    margin-right: 15px;
+}
+
+.circle_blue i {
+    border: 5px solid var(--dropbox--secondary);
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+
 
 /* style of columns */
 
@@ -263,8 +276,9 @@ input[type="radio"] {
     margin: 35px 15px 15px 25px;
 }
 
-.link {
-    margin: 35px 15px 15px 25px;
+.link_cards {
+    /* margin: 35px 15px 15px 25px; */
+    padding: 20px;
 }
 
 .title_team {
@@ -548,7 +562,7 @@ hr {
 }
 
 .container_faq {
-    padding-bottom: 1rem;
+    padding-bottom: 7rem;
 }
 
 /* style of container questions */
@@ -565,3 +579,57 @@ hr {
 .change_h4 {
     border-bottom: 1px groove var(--dropbox--dark);
 }
+
+/* style of footer */
+.site_footer {
+    background-color: var(--dropbox--dark);
+    font-size: 17px;
+}
+
+.site_footer h4 {
+    color: var(--dropbox--light);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+
+.site_footer li {
+    padding: 0.7rem 0;
+}
+
+.site_footer a {
+    color: var(--dropbox--light);
+    text-decoration: none;
+}
+
+
+.footer_top {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    padding: 5rem 0;
+    display: flex;
+}
+
+/* style of bottom footer */
+
+.footer_bottom {
+    padding: 2rem 0;
+    border-top: 1px solid rgb(120 119 118);
+    width: 140px;
+}
+
+.language {
+    color: rgb(120 119 118);
+
+}
+
+.language span {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* end style  footer */
