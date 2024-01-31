@@ -160,14 +160,22 @@ header {
     margin-top: 20px;
     margin-left: 15px;
     font-size: 15px;
-}
 
+  
+}
+/* style of arrow in jumbotron */
+.design_arrow a{
+    color: var(--dropbox--dark);
+}
+  #busniess:target {
+   scroll-behavior: smooth;
+    }
 
 /* style of second section of maine */
 
 
-.busniess {
-    margin-top: 1rem;
+#busniess {
+    margin-top: 3rem;
 
 }
 
@@ -559,10 +567,24 @@ hr {
 
 .container_faq i {
     margin-right: 2rem;
+    
 }
 
 .container_faq {
     padding-bottom: 7rem;
+   cursor: pointer;
+    transition: flex 0.3s ease-out;
+}
+
+.answer{
+   
+  max-height: 0;
+     overflow: hidden;
+    transition: max-height 0.3s ease-out;
+
+}
+.container_faq:hover .answer {
+    max-height: 100px;
 }
 
 /* style of container questions */
@@ -573,6 +595,8 @@ hr {
     padding: 2rem 0;
     border-top: 1px groove var(--dropbox--dark);
     display: flex;
+ 
+   
 }
 
 
